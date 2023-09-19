@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 234, 248);
+    padding: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.box {
+    width: 180px;
+    height: 120px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gray {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(212, 209, 209, 0.884);
+}
+
+.purple1 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple1:hover {
+    transform: rotate(45deg);
+}
+
+.purple2 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple2:hover {
+    transform: rotateX(45deg);
+}
+
+.purple3 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple3:hover {
+    transform: rotateY(45deg);
+}
+
+.purple4 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple4:hover {
+    transform: scale(2);
+}
+
+.purple5 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple5:hover {
+    transform: scaleX(2);
+}
+
+.purple6 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple6:hover {
+    transform: scaleY(2);
+}
+
+.purple7 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple7:hover {
+    transform: skew(45deg);
+}
+
+.purple8 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple8:hover {
+    transform: skewY(45deg);
+}
+
+.purple9 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple9:hover {
+    transform: translate(40px, 15px);
+}
+
+.purple10 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple10:hover {
+    transform: translateX(40px);
+}
+
+.purple11 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple11:hover {
+    transform: translateY(40px);
+}
+
+.purple12 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: 6px 120px;
+}
+
+.purple12:hover {
+    transform: skewY(45deg) scale(2);
+}
+
+.purple13 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple13:hover {
+    transform: perspective(150px) rotateX(60deg) scale3d(1, 1.4, 1);
+}
+
+.purple14 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.purple14:hover {
+    transform: perspective(230px) rotateY(68deg) scaleX(1.8);
+    transform-origin: 50% 55% 3px;
+}
+
+.purple15 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: 100% 0 0;
+}
+
+.purple15:hover {
+    transform: rotate(45deg) ;
+}
+
+.purple16 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: bottom left;
+}
+
+.purple16:hover {
+    transform: rotate(45deg) ;
+}
+
+.purple17 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: bottom;
+}
+
+.purple17:hover {
+    transform: perspective(340px) rotateX(40deg) ;
+}
+
+.purple18 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: top;
+}
+
+.purple18:hover {
+    transform: perspective(200px) rotateX(60deg) ;
+}
+
+.purple19 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+.purple19:hover {
+    transform: perspective(240px) rotateY(40deg) ;
+}
+
+.purple20 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: right;
+}
+
+.purple20:hover {
+    transform: perspective(220px) rotateY(58deg) ;
+}
+
+.purple21 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: top right;
+}
+
+.purple21:hover {
+    transform:  scale(2) ;
+}
+
+.purple22 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: bottom left;
+}
+
+.purple22:hover {
+    transform:  scale(2) ;
+}
+
+.purple23 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: right;
+}
+
+.purple23:hover {
+    transform:  scaleX(2) ;
+}
+
+.purple24 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+.purple24:hover {
+    transform:  scaleX(2) ;
+}
+
+.purple25 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: top;
+}
+
+.purple25:hover {
+    transform:  scaleY(2) ;
+}
+
+.purple26 {
+    z-index: 50;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(171, 97, 241, 0.5);
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: bottom;
+}
+
+.purple26:hover {
+    transform:  scaleY(2) ;
+}
